@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_348880" data-name="사각형 348880" width="70" height="70" transform="translate(1084 2639)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_600" data-name="마스크 그룹 600" transform="translate(-1084 -2639)" clip-path="url(#clip-path)">
+    <g id="그룹_460910" data-name="그룹 460910" transform="translate(602.066 2327.59)">
+      <g id="Layer_7" data-name="Layer 7" transform="translate(506.918 314.38)">
+        <path id="패스_23815" data-name="패스 23815" d="M532.861,341.408a20,20,0,1,1-20-20A20,20,0,0,1,532.861,341.408Z" transform="translate(-492.861 -321.41)" fill="#D5EFB6"/>
+      </g>
+      <g id="타이틀" transform="translate(491.934 331.231)">
+        <g id="그룹_460909" data-name="그룹 460909">
+          <g id="그룹_460907" data-name="그룹 460907">
+            <g id="그룹_460905" data-name="그룹 460905" transform="translate(36.531)">
+              <path id="패스_23816" data-name="패스 23816" d="M532.072,353.751a16.6,16.6,0,0,0,0-23.475" transform="translate(-524.139 -330.276)" fill="none" stroke="#79C33A" stroke-linecap="round" stroke-width="4"/>
+              <path id="패스_23817" data-name="패스 23817" d="M524.911,345.044a5.37,5.37,0,0,0,0-7.6" transform="translate(-524.911 -329.504)" fill="none" stroke="#79C33A" stroke-linecap="round" stroke-width="4"/>
+            </g>
+            <g id="그룹_460906" data-name="그룹 460906">
+              <path id="패스_23818" data-name="패스 23818" d="M496.794,353.751a16.6,16.6,0,0,1,0-23.475" transform="translate(-491.934 -330.276)" fill="none" stroke="#79C33A" stroke-linecap="round" stroke-width="4"/>
+              <path id="패스_23819" data-name="패스 23819" d="M503.635,345.044a5.373,5.373,0,0,1,0-7.6" transform="translate(-490.843 -329.504)" fill="none" stroke="#79C33A" stroke-linecap="round" stroke-width="4"/>
+            </g>
+          </g>
+          <g id="그룹_460908" data-name="그룹 460908" transform="translate(20.145 8.059)">
+            <path id="패스_23820" data-name="패스 23820" d="M519.153,342.069a4.517,4.517,0,1,1-4.518-4.517A4.518,4.518,0,0,1,519.153,342.069Z" transform="translate(-510.119 -337.551)" fill="none" stroke="#79C33A" stroke-linecap="round" stroke-width="4"/>
+            <line id="선_8" data-name="선 8" y2="28.962" transform="translate(4.517 9.27)" fill="none" stroke="#79C33A" stroke-linecap="round" stroke-width="4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

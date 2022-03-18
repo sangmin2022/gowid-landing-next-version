@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>고위드 랜딩페이지</title>
+
+    <link rel="stylesheet" href="./common/css/reset.css?v=1.0"/>
+    <link rel="stylesheet" href="./common/css/slick.css?v=1.0"/>
+    <link rel="stylesheet" href="./common/css/font.css?v=1.0"/>
+    <link rel="stylesheet" href="./common/css/common.css?v=1.0"/>
+    <link rel="stylesheet" href="./common/css/main.css?v=1.0"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+    <script src="./common/js/jquery-3.6.1.min.js?v=1.0"></script>
+    <script src="./common/js/slick.js?v=1.0"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./common/js/common.js?v=1.0" defer></script>
+    <script src="./common/js/interactive.js?v=1.0" defer></script>
+    <script>
+        history.scrollRestoration = "manual";
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-DC8B9STGQS"
+    ></script>
+<!--    gtag modules -->
+    <script src="./common/js/G4.js" defer></script>
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <h1 class="logo">
+            <a href="./index.html">
+                <img id="gowid_mark" src="./common/imgs/gowid_mark.png" alt="고위드"/>
+            </a>
+        </h1>
+        <nav class="gnb">
+            <div class="item">
+                <div class="drop-down">
+                    <h2>
+                        <button class="drop-btn">
+                            스타트업 법인카드
+                            <img class="drop-down-arrow" src="./common/imgs/drop-down-arrow.png" alt="드롭다운메뉴 화살표"/>
+                        </button>
+                    </h2>
+                    <div class="drop-down-content">
+                        <a href="#">example submenu1</a>
+                        <a href="#">example submenu2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="drop-down">
+                    <h2>
+                        <button class="drop-btn">
+                            서비스
+                            <img class="drop-down-arrow" src="./common/imgs/drop-down-arrow.png" alt="드롭다운메뉴 화살표"/>
+                        </button>
+                    </h2>
+                    <div class="drop-down-content">
+                        <a href="#">example submenu3</a>
+                        <a href="#">example submenu4</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h2>
+                    <a href="#">고객센터</a>
+                </h2>
+            </div>
+        </nav>
+        <div class="member">
+            <a href="#" class="login">로그인</a>
+            <a href="#" class="join">카드신청하기</a>
+        </div>
+        <div class="all-bt">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </header>
+    <nav class="all-nav">
+        <div class="all-gnb">
+            <div class="iw">
+                <ul class="mo-menu">
+                    <li>
+                        <button type="button" class="expand-btn menu-property-mo" onclick="toggle(1);">
+                            스타트업 법인카드
+                            <img class="drop-down-arrow" src="./common/imgs/drop-down-arrow.png" alt="드롭다운메뉴 화살표"/>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">example mo-submenu1</a></li>
+                            <li><a href="#">example mo-submenu2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="button" class="expand-btn menu-property-mo" onclick="toggle(2);">
+                            서비스
+                            <img class="drop-down-arrow" src="./common/imgs/drop-down-arrow.png" alt="드롭다운메뉴 화살표"/>
+                        </button>
+                        <ul class="submenu">
+                            <li><a href="#">example mo-submenu3</a></li>
+                            <li><a href="#">example mo-submenu4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-property-mo">고객센터</a>
+                    </li>
+                </ul>
+                <div class="member member-menu-mo">
+                    <!--a태그 target 지정시 현재창/새창 등에서 열기 실행-->
+                    <a href="#">로그인</a>
+                    <a href="#" >카드신청하기</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="main-visual">
+        <!-- 여기서부터 수정 -->
+
+        <div class="iw">
+            <section class="pc-slider-wrap">
+                <div class="header-slider">
+                    <div
+                            class="typo"
+                            data-aos="fade-up"
+                            data-aos-delay="1100"
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-out-back"
+                    >
+                        <span class="main-title">스타트업 비즈니스 리포팅 서비스</span>
+                        <span class="main-desc"
+                        >매일 회사 현황을 확인하고 설정을 위한 인사이트를 얻는데 몰두하세요!</span
+                        >
+                        <div class="btn-wrap">
+                            <a
+                                    target="_blank"
+                                    href="#"
+                                    class="demo"
+                            >데모 체험하기
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="slider-box">
+                <img src="./common/imgs/pc-thumb-3.png?v=1.0" alt=""/>
+            </div>
+        </div>
+    </section>
+    <section class="banner-section">
+        <article class="banner">
+            <div class="iw">
+                <div class="item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="ico-img">
+                        <img src="./common/imgs/ico-motion1.svg?v=1.0" alt=""/>
+                    </div>
+                    <h3>신속한 처리</h3>
+                    <p>
+                        매일 출근 전 리포트 완성
+                    </p>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ico-img">
+                        <img src="./common/imgs/ico-motion2.svg?v=1.0" alt=""/>
+                    </div>
+                    <h3>자동처리</h3>
+                    <p>
+                        전 금융기관, 홈텍스 자료 취합 후<br/>
+                        인공지능을 활용한 항목 매칭
+                    </p>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="ico-img">
+                        <img src="./common/imgs/ico-motion4.svg?v=1.0" alt=""/>
+                    </div>
+                    <h3>성장전략수립의 필수 도구</h3>
+                    <p>
+                        현금, 매출, 미수금 현황 및 흐름<br/>
+                        파악을 통해 성장 전략 수립 가능
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="slider-section">
+        <div class="pager-wrap"></div>
+        <div class="info-slider">
+            <article class="item dots-item" data-page="서류발급">
+                <div class="flex-box">
+                    <!--text와 이미지 넣기-->
+                </div>
+            </article>
+            <article class="item dots-item" data-page="은행/통장 관리">
+                <div class="flex-box">
+                    <div class="text">
+                        <h2 class="item-title">
+                            <span> 여러 은행, 여러 통장의 거래내역을 한 번에 </span>
+                        </h2>
+                        <p class="item-desc">
+                          <span>
+                            여러 은행, 여러 통장을 추가해서 한 번에 거래내역을 비교/분석해보세요!
+                          </span>
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="./common/imgs/tab-img-5.png?v=1.0" alt=""/>
+                    </div>
+                </div>
+            </article>
+            <article class="item dots-item" data-page="세금 계산서">
+                <div class="flex-box">
+                    <!--text와 이미지 넣기-->
+                </div>
+            </article>
+            <article class="item dots-item" data-page="예상 부가세">
+                <div class="flex-box">
+                    <!--text와 이미지 넣기-->
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="slider-section-mo">
+        <div class="iw">
+            <div class="paging-slider">
+                <button type="button" onclick="handleTabClick()">서류발급</button>
+                <button type="button" onclick="handleTabClick()">은행/통장관리</button>
+                <button type="button" onclick="handleTabClick()">세금 계산서</button>
+                <button type="button" onclick="handleTabClick()">예상 부가세</button>
+            </div>
+            <div class="thumb-slider">
+                <div class="item">
+                    <div class="text">
+                        <h2 class="item-title">
+                            여러은행, 여러 통장의<br/>거래내역을 한번에
+                        </h2>
+                        <p class="item-desc">
+                            여러 은행, 여러 통장을 추가해서 한번에<br/>
+                            거래내역을 비교/분석 해보세요!
+                        </p>
+                    </div>
+                    <img
+                            src="./common/imgs/mo-slider-thumb-1.png?v=1.0"
+                            alt=""
+                            class="first"
+                    />
+                </div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+        </div>
+    </section>
+    <section class="review-section">
+        <div class="iw">
+            <h2 class="section-title">
+                실제 사용 고객님들의 생생한 리뷰
+            </h2>
+            <p class="desc">
+                실제 사용한 고객님들의 생생한 리뷰를 통해 고위드 인사이트의 장점을 체험해 보세요!
+            </p>
+            <div class="list">
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        급여대장을 쉽게 만들 수도 있어서 편리합니다. 예상 부가세도 미리 알 수
+                        있고, 준비를 할 수 있어 좋네요. 미리 재무현황을 알고 있어서 나중에
+                        세무신고할 때도 편리하겠네요.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-1.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>김*현 대표</h3>
+                            <span>리츠모터스</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        급여대장을 쉽게 만들 수도 있어서 편리합니다. 예상 부가세도 미리 알 수
+                        있고, 준비를 할 수 있어 좋네요. 미리 재무현황을 알고 있어서 나중에
+                        세무신고할 때도 편리하겠네요.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-2.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>김*현 대표</h3>
+                            <span>리츠모터스</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        세금계산서와 통장입출금을 비교하여 거래처별로 받을 돈과 줄 돈을 알려주니
+                        관리에 들어가던 시간이 확 줄어들어서 다른 업무에 집중할 수 있어 좋습니다.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-3.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>우*엽 대표</h3>
+                            <span>비씨엔컴퍼니</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        회사 재무현황을 한번에 확인할 수 있고, 거래처별 미수금 확인이 너무
+                        편리합니다. 회사를 운영하는 대표 입장에서는 미리 미리 회사 현황을
+                        파악할 수 있어 도움이 많이 되고 있습니다.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-5.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>김*한 대표</h3>
+                            <span>아토이앤지</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        사전에 실적도 파악할 수 있고 세금관리도 사전에 잘해주셔서 아주 만족합니다.
+                        현재는 컴퓨터로 확인하고 있는데 휴대폰 어플도 나온다고 하니 더 편해질 것
+                        같네요.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-4.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>장*익 대표</h3>
+                            <span>새마을 식당 역삼점</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        매일 반복하던 은행입출금 내역을 한번에 확인하고 세금계산서도 바로바로
+                        확인 할 수 있어 너무 편합니다. 이렇게 편리한 프로그램이 있다니 신기하네요.
+                        주위 사람들에게 적극 추천합니다.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-6.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>유*영 대표</h3>
+                            <span>애드몽스</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review-section-mo">
+        <div class="iw">
+            <h2 class="section-title">
+                실제 사용 고객님들의<br/>
+                생생한 리뷰
+            </h2>
+            <p class="section-desc">
+                실제 사용한 고객님들의 생생한 리뷰를 통해<br/>
+                고위드 인사이트의 장점을 체험해 보세요!
+            </p>
+            <div class="list review-slider">
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        급여대장을 쉽게 만들 수도 있어서 편리합니다. 예상 부가세도 미리 알 수
+                        있고, 준비를 할 수 있어 좋네요. 미리 재무현황을 알고 있어서 나중에
+                        세무신고할 때도 편리하겠네요.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-1.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>김*현 대표</h3>
+                            <span>리츠모터스</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        급여대장을 쉽게 만들 수도 있어서 편리합니다. 예상 부가세도 미리 알 수
+                        있고, 준비를 할 수 있어 좋네요. 미리 재무현황을 알고 있어서 나중에
+                        세무신고할 때도 편리하겠네요.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-2.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>김*현 대표</h3>
+                            <span>리츠모터스</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        세금계산서와 통장입출금을 비교하여 거래처별로 받을 돈과 줄 돈을 알려주니
+                        관리에 들어가던 시간이 확 줄어들어서 다른 업무에 집중할 수 있어 좋습니다.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-3.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>우*엽 대표</h3>
+                            <span>비씨엔컴퍼니</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        회사 재무현황을 한번에 확인할 수 있고, 거래처별 미수금 확인이 너무
+                        편리합니다. 회사를 운영하는 대표 입장에서는 미리 미리 회사 현황을
+                        파악할 수 있어 도움이 많이 되고 있습니다.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-4.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>김*환 대표</h3>
+                            <span>아토이앤지</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        사전에 실적도 파악할 수 있고 세금관리도 사전에 잘해주셔서 아주 만족합니다.
+                        현재는 컴퓨터로 확인하고 있는데 휴대폰 어플도 나온다고 하니 더 편해질 것
+                        같네요.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-5.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>장*익 대표</h3>
+                            <span>새마을 식당 역삼점</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span><img src="./common/imgs/ico-mark.png" alt=""/></span>
+                    <p class="desc">
+                        매일 반복하던 은행입출금 내역을 한번에 확인하고 세금계산서도 바로바로
+                        확인 할 수 있어 너무 편합니다. 이렇게 편리한 프로그램이 있다니 신기하네요.
+                        주위 사람들에게 적극 추천합니다.
+                    </p>
+                    <div class="user">
+                        <div class="img">
+                            <img src="./common/imgs/review-6.png" alt=""/>
+                        </div>
+                        <div class="text">
+                            <h3>유*영 대표</h3>
+                            <span>애드몽스</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="profile-section">
+        <div class="iw">
+            <p class="section-point">
+                <strong
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1200"
+                >
+                    고위드 인사이트를 구동하는 인공지능은<br/><br class="mo">
+                    금융공학 엔지니어, 공인회계사와 세무사의<br/><br class="mo">
+                    협업으로 계속 스마트해지고 있습니다.
+                </strong>
+                <span
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-duration="1200"
+                >향후 스타트업 대출 등 프리미엄 서비스와 연동할 수 있습니다.</span
+                >
+            </p>
+        </div>
+    </section>
+    <section class="free-section">
+        <article class="apply">
+            <div
+                    class="cont"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease"
+            >
+                <strong
+                >무료로 사용해보시고 결정하세요</strong
+                >
+                <div class="btn">
+                    <a
+                            href="#"
+                            target="_blank"
+                            class="kakao"
+                    >상담 예약하기</a>
+                    <a
+                            href="#"
+                            target="_blank"
+                            class="call"
+                    >카드 신청하기</a>
+                    <a
+                            href="#"
+                            target="_blank"
+                            class="call"
+                    >데모 체험하기</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="iw">
+<!--            <div class="f-top"></div>-->
+            <div class="f-mid" style="text-align: center">
+                <p class="info">
+                    공지사항 &nbsp;&nbsp;&nbsp;<span>|</span> &nbsp;&nbsp;&nbsp;
+                    회사소개
+                </p>
+                <p class="info">
+                    개인정보 처리방침 &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    고위드 통합 서비스 이용약관
+                </p>
+                <p class="info">
+                    상호 : 주식회사 고위드 &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    대표자 : 김향기 &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; 사업자등록번호 : 261-81-25793
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; 통신판애업신고 : 제 2020-서울강남-01863
+                </p>
+                <p class="info">
+                    주소 : 서울특별시 강남구 도산대로 317, 14층(신사동, 호림아트센터 1빌딩)
+                </p>
+                <p class="info">
+                    대표전화 : 02-6105-8101 &nbsp;&nbsp;|&nbsp;&nbsp; 이메일 : contact@gowid.com
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+    function mainSlider() {
+        const pcSlider = $(".main-slider");
+        const setting = {
+            autoplay: true,
+            arrows: false,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            draggable: false,
+        };
+        pcSlider.each(function () {
+            $(this).slick(setting);
+        });
+    }
+    mainSlider();
+
+    function headerSlider() {
+        const headerSlider = $(".header-slider");
+        const setting = {
+            autoplay: true,
+            arrows: false,
+            dots: true,
+            dotsClass: "header-dots-slider",
+            pauseOnHover: true,
+            pauseOnFocus: false,
+            draggable: false,
+            autoplaySpeed: 3000,
+        };
+        headerSlider.each(function () {
+            $(this).slick(setting);
+        });
+    }
+    headerSlider();
+
+    function reviewSlider() {
+        const reviewSlider = $(".review-slider");
+        const setting = {
+            autoplay: true,
+            autoplaySpeed: 5000,
+            slidesToShow: 1,
+            prevArrow: '<button class="slide-arrow prev-arrow"> </button>',
+            nextArrow: '<button class="slide-arrow next-arrow"> </button>',
+            arrow: true,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            centerMode: true,
+        };
+        reviewSlider.each(function () {
+            $(this).slick(setting);
+        });
+    }
+    reviewSlider();
+
+    function infoSlider() {
+        const infoSlider = $(".info-slider");
+        const setting = {
+            autoplay: true,
+            arrows: false,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            dots: true,
+            appendDots: $(".pager-wrap"),
+            customPaging: function () {
+                return '<a class="slider-btn" href="javascript:void(0)"></a>';
+            },
+        };
+
+        const page = $(".dots-item"),
+            arr = [];
+        page.each(function () {
+            arr.push($(this).data("page"));
+        });
+
+        infoSlider.slick(setting);
+
+        const item = $(".slider-btn");
+        item.on("click", handleTabClick);
+
+        for (let i = 0; i < item.length; i++) {
+            item.eq(i).text(arr[i]);
+        }
+    }
+    infoSlider();
+
+    function handleTabClick() {
+        gtag("event", "click", {category: "button", label: "index_tab"});
+    }
+
+    function moInfoSlider() {
+        const pagingSlider = $(".paging-slider"),
+            thumbSlider = $(".thumb-slider");
+
+        pagingSlider.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            asNavFor: ".thumb-slider",
+            centerMode: true,
+            adaptiveHeight: true,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+            ],
+        });
+
+        thumbSlider.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            asNavFor: ".paging-slider",
+        });
+    }
+    moInfoSlider();
+
+    function palleraxFnc() {
+        const el = document.querySelector(".review-section");
+        let value = el.getBoundingClientRect().top;
+
+        $(window).on("scroll", function () {
+            value = el.getBoundingClientRect().top;
+            if (value > 0) {
+                $(".review-section .list .item").css(
+                    "transform",
+                    "translate3d(0," + value + "px,0)"
+                );
+            } else {
+                $(".review-section .list .item").css(
+                    "transform",
+                    "translate3d(0,0,0)"
+                );
+            }
+        });
+    }
+    palleraxFnc();
+</script>
+<script>
+    function toggle(n) {
+        let menus = document.getElementsByClassName("submenu");
+        for(let i=0; i<menus.length; i++){
+            if((i === (n-1)) && (menus[i].style.display !== "block")){
+                menus[i].style.display = "block";
+                menus[i].style.transition = "opacity 0.5s"
+            }else{
+                menus[i].style.display = "none";
+                menus[i].style.transition = "opacity 0.5s"
+            }
+        }
+    }
+</script>
+</body>
+</html>
